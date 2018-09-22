@@ -1,0 +1,237 @@
+body
+{ 
+margin:0;
+font-family: 'Inconsolata', monospace;
+	
+}
+
+
+@media (max-width: 640px) { 
+  [class*="col-"]:not(:first-child){
+      margin-top: 30px;
+  }
+  h1 {font-size:28px;}
+  .vision-box 
+  {
+	  height:70vh;  
+  }
+}
+
+.panel-footer.panel-custom {
+    background: #449D44;
+    color: white;
+}
+.nav.navbar-nav li a { color: #fff; }
+.nav.navbar-nav li a:hover { color: #000; }
+
+
+.main-content
+{
+background-image:linear-gradient(160deg,#aa7ecd 0,#02ccba 100%);
+
+}
+
+.highlighter
+{
+background-image:linear-gradient(rgba(251,188,5, .9), rgba(251,188,5,.9)),url(../img/web-developer-training.png);
+top: 0;
+left: 0;
+width: 100%;
+height: 95%;
+background-size:cover;
+-moz-background-size: cover;
+box-shadow: 5px 5px grey;
+}
+.hcontent{
+padding:25px;
+font-family: 'Inconsolata', monospace;
+text-align:center;
+color:rgb(255,255,255);
+font-size:1.5em;
+}
+.hcontent h1
+{
+	color:rgb(255,255,255);
+}
+#btns
+{
+margin-top:50px;
+margin-bottom:15px;
+width:150px;
+font-size:18px;
+font-weight:500;
+text-align:center;
+
+}
+.vision-box
+{
+width:100%;
+height:100%;
+margin:0;
+background-image:linear-gradient(160deg,#ECFAFE 0,#FFFFFF 100%);
+background-color:#ECFAFE;
+text-align:center;
+color:#7DA0CE;
+box-shadow: 5px 5px grey;
+
+}
+.vision-box img
+{
+padding-top:10px;
+width:180px;
+
+}
+.vision-box p
+{
+margin:10px;
+
+}
+
+
+.tiny-cbox
+{
+background-image:linear-gradient(160deg,#ECFAFE 0,#FFFFFF 100%);
+border-radius:5px;
+width:100%;
+margin:0;
+
+
+}
+.tiny-cbox p
+{
+font-size:13px;
+margin:10px;
+}
+.tiny-cbox h3
+{
+color:#9289CA;
+font-size:14px;
+
+
+}
+.well 
+{
+	box-shadow: 3px 3px grey;
+}
+h1{
+font-family: 'Inconsolata', monospace;
+color:#B3C2CF;
+text-align:center;
+height: 60px;
+line-height: 30px;
+}
+
+/*Testimonial curosal starts*/
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*    Carousel Fade Transition   */
+/*-------------------------------*/
+
+#fade-quote-carousel.carousel {
+  padding-bottom: 20px;
+}
+#fade-quote-carousel.carousel .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-inner .active {
+  opacity: 1;
+  -webkit-transition-property: opacity;
+      -ms-transition-property: opacity;
+          transition-property: opacity;
+}
+#fade-quote-carousel.carousel .carousel-indicators {
+  bottom: 10px;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+  background-color: #e84a64;
+  border: none;
+}
+#fade-quote-carousel blockquote {
+    text-align: center;
+    border: none;
+}
+#fade-quote-carousel .profile-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 100px;
+}
+
+/*Testimonial curosal ends*/
+/*child pages*/
+.cpage-bg
+{
+background-color:#F1F8FA;
+}
+.cpage-bg .nav.navbar-nav li a { color: #000; }
+.cpage-bg .nav.navbar-nav li a:hover { color:#02D1BF;
+ }
+ .foot 
+  {  width:100%;
+	 text-align:center;
+	 background-color:rgb(102,211,255);
+	 
+ }
+ 
+ .fot-b
+ {
+	 width:100%;
+	 text-align:center;
+ }
+ .fot-b h1
+ {
+	 font-size:0.9em;
+ }
+.com-page-content
+{
+	text-align:center;
+	color:#FFFFFF;
+	font-size:1.5em;
+}
+.com-page-content h1
+{
+	font-weight:700;
+}
+.mycard
+{
+width:100%;
+height:100%;
+margin:0;
+padding:10px;
+background-image:linear-gradient(160deg,#ECFAFE 0,#FFFFFF 100%);
+background-color:#ECFAFE;
+text-align:center;
+box-shadow: 5px 5px grey;
+	
+}
+.mycard h1 
+{
+	font-size:2.0em;
+	font-weight:400;
+	color:rgb(55,179,192);
+	height:1.0em;
+}
+.mycard h3
+{
+	font-size:1.5em;
+color:rgb(236,151,31);
+}
